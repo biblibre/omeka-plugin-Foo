@@ -9,7 +9,7 @@ class Foo_Bar extends AbstractCommand
     protected function configure()
     {
         $this->setName('foo:bar');
-        $this->setAliases(array('bar'));
+        $this->setAliases(['bar']);
         $this->setDescription('print something to stdout');
     }
 
